@@ -6,6 +6,7 @@ import Mission from '../pages/Mission.vue'
 import Vision from '../pages/Vision.vue'
 import More_about_us from '../pages/More_about_us.vue'
 import Introduction from '../pages/Introduction.vue'
+import Visit_visa from '../pages/Visit_visa.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -14,6 +15,7 @@ const routes = [
   { path: '/vision', name: 'Vision', component: Vision },
   { path: '/more_about_us', name: 'More_about_us', component: More_about_us },
   { path: '/introduction', name: 'Introduction', component: Introduction },
+  { path: '/visit_visa', name: 'Visit_visa', component: Visit_visa },
 ]
 
 const router = createRouter({
