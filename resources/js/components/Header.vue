@@ -14,7 +14,7 @@
 
                 <li class="current yellow">
                     <span class="menufilter"></span>
-                    <router-link to="/dhothar_travel/"><strong>HOME</strong></router-link>
+                    <router-link to="/"><strong>HOME</strong></router-link>
 
                     <ul>
 
