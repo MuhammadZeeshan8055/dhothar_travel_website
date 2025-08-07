@@ -1,9 +1,17 @@
 <template>
+    <div>
+        <ImageSlider />
+    </div>
 
 </template>
 
 <script>
+import ImageSlider from '@/components/ImageSlider.vue';
+
 export default {
-  name: 'Home'
+    name: 'Home',
+    components: {
+        ImageSlider
+    }
 }
 </script>
