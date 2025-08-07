@@ -1,7 +1,8 @@
 <template>
      <!-- fade-up -->
     <section class="header-page">
-        <div class="bounce-in animate4">
+        <!-- bounce-in animate4 -->
+        <div class="">
             <h2 class="header-pagetitle">Vision</h2>
         </div>
     </section>
