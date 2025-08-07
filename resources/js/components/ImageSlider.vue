@@ -40,8 +40,26 @@ export default {
 <style scoped>
 .carousel-img {
   width: 100%;
-  height: 400px;
+  height: 100%;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 0; /* Optional: Set to 0 to avoid image gaps */
+}
+
+:deep(.carousel__slide) {
+  width: 100%;
+  height: 100%;
+  padding: 0 !important; /* remove default padding */
+  margin: 0 !important;
+}
+
+:deep(.carousel__viewport) {
+  height: 100vh; /* or a fixed height like 500px */
+  width: 100%;
+  overflow: hidden;
+}
+
+:deep(.carousel) {
+  width: 100%;
+  height: 100vh; /* make it fullscreen height */
 }
 </style>
