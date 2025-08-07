@@ -14,11 +14,11 @@
 
                 <li class="current yellow">
                     <span class="menufilter"></span>
-                    <a href="/dhothar_travel/"><strong>HOME</strong></a>
+                    <router-link to="/dhothar_travel/"><strong>HOME</strong></router-link>
 
                     <ul>
 
-                        <li><a href="introduction">Introduction</a></li>
+                        <li><router-link to="introduction">Introduction</router-link></li>
 
                     </ul>
 
@@ -26,46 +26,46 @@
 
                 <li class="orange">
                     <span class="menufilter"></span>
-                    <a href="#"><strong>About</strong></a>
+                    <router-link to="#"><strong>About</strong></router-link>
                     <ul>
-                        <li><a href="our_services">Our Services</a></li>
-                        <li><a href="mission">Mission</a></li>
-                        <li><a href="vision">Vision</a></li>
-                        <li><a href="more_about_us">More About Us</a></li>
+                        <li><router-link to="our_services">Our Services</router-link></li>
+                        <li><router-link to="mission">Mission</router-link></li>
+                        <li><router-link to="vision">Vision</router-link></li>
+                        <li><router-link to="more_about_us">More About Us</router-link></li>
                     </ul>
                 </li>
 
                 <li class="red">
                     <span class="menufilter"></span>
-                    <a href="visit_visa"><strong>Visit Visa</strong></a>
+                    <router-link to="visit_visa"><strong>Visit Visa</strong></router-link>
 
                 </li>
 
                 <li class="violet">
                     <span class="menufilter"></span>
-                    <a href="visa_file_processing"><strong>Visa File Processing</strong></a>
+                    <router-link to="visa_file_processing"><strong>Visa File Processing</strong></router-link>
 
                 </li>
 
 
                 <li class="green">
                     <span class="menufilter"></span>
-                    <a href="travel_insurance"><strong>Travel Insurance</strong></a>
+                    <router-link to="travel_insurance"><strong>Travel Insurance</strong></router-link>
 
                 </li>
 
                 <li class="green">
                     <span class="menufilter"></span>
-                    <a href="#"><strong>Contact Us</strong></a>
+                    <router-link to="#"><strong>Contact Us</strong></router-link>
                     <ul>
                         <li>
-                            <a href="contact-dark.php">Dark Map</a>
+                            <router-link to="contact-dark.php">Dark Map</router-link>
                         </li>
                         <li>
-                            <a href="contact-light.php">Color Map</a>
+                            <router-link to="contact-light.php">Color Map</router-link>
                         </li>
                         <li>
-                            <a href="contact-with-text.php">With Text</a>
+                            <router-link to="contact-with-text.php">With Text</router-link>
                         </li>
                     </ul>
                 </li>
@@ -87,3 +87,25 @@ export default {
     name: 'Header'
 }
 </script>
+
+<style scoped>
+.gridnavigation {
+  position: relative;
+  z-index: 1000; /* Higher than the slider */
+}
+
+/* Dropdown UL */
+.sf-menu ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1001; /* Ensure dropdowns sit above everything */
+  background-color: white; /* or your preferred color */
+  display: none;
+}
+
+/* Show dropdown on hover */
+.sf-menu li:hover > ul {
+  display: block;
+}
+</style>
