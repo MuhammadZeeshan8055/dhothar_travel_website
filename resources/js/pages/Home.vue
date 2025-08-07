@@ -60,6 +60,7 @@
                     <p><b>Beach Resorts</b></p>
                     <p><b>Wellness Retreats</b></p>
                     <p><b>Nature Retreats</b></p>
+                    <p><b>Luxury Resorts</b></p>
                     <p><b>Cultural Immersion Retreats</b></p>
 
                     <p><b>Mindfulness Retreats</b></p>
