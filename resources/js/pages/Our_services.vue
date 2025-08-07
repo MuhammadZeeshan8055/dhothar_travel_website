@@ -1,7 +1,8 @@
 <template>
     <!-- fade-up -->
     <section class="header-page  header-page-about-us">
-        <div class="bounce-in animate4">
+        <!-- bounce-in animate4 -->
+        <div class="">
             <h2 class="header-pagetitle">ABOUT US<br /><span class="header-pagedescription">Services</span></h2>
         </div>
     </section>
